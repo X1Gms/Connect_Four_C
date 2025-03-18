@@ -208,8 +208,6 @@ O array do tabuleiro foi criado como `char`, em vez de `int` para facilitar a su
 
 No caso deste problema `' '` representará um caracter vazio, enquanto `'X'`, o caracter do jogador 01 e `'O'`, o caracter do jogador 02.
 
-Para esse efeito, foi criado a variável `char symbols[2] = {'X', 'O'};`, para, em vez de atribuir os valores de forma _hardcoded_, atribuí os valores das posições do array de uma variável pré-existente.
-
 Para a exibição do tabuleiro, foi criada a função `printBoard()`, onde irá imprimir as linhas e a numeração de cada coluna, de forma a facilitar o utilizador a inserir o símbolo do jogador que está a jogar.
 
 Para aparecer o tabuleiro foram feitas duas interações do tipo `for` (uma para as linhas e outra para as colunas), onde imprimira o caracter já atribuído à posição na matriz ou um espaço em branco. Começando o processo, ela comecaria no topo com as linhas, antes de chegar às colunas e descer até eventualmente chegar ao valor de ambas `ROWS` (linhas) e `COLS` (colunas).
